@@ -1,6 +1,6 @@
 export default class SortableTable {
   element;
-  subElements = [];
+  subElements = {};
 
   #headerConfig = [];
   #data = [];

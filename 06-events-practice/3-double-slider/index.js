@@ -12,7 +12,7 @@ const directionsMap = {
 
 export default class DoubleSlider {
   element;
-  subElements = [];
+  subElements = {};
   min;
   max;
 
